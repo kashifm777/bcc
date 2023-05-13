@@ -1,7 +1,7 @@
-# Breast_Cancer_Classification
+# BREAST CANCER CLASSIFICATION  
 The aim of this project is to classify breast cancer as either malignant or benign using the dataset from sckit-learn.  
 
-The app analyzes the given data and provides prediction accuracy for the various classification algorithms
+The app analyzes the given data and provides prediction accuracy for the various classification algorithms.  
 
 * Support Vector Machine
 * Logistic Regression
