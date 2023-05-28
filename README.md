@@ -12,6 +12,10 @@ The app analyzes the given data and provides prediction accuracy for the various
 
 The application allows for interactivity with the parameters of these classification algorithms. In addition, We have plot Confusion Matrix, Precision-Recall Curve and ROC curve for each of the classifications.   
 
-## Screen Capture
+## Screen Capture  
 
-![Main Screen](/ScreenCapture/main.PNG)
+### Main Screen  
+![Main Screen](/ScreenCapture/main.PNG)  
+
+### Precision  
+![Precision](/ScreenCapture/precision.PNG)
