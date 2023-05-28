@@ -28,7 +28,7 @@ def main():
     navigation=st.sidebar.radio('VIEW', ('Data Analysis','Prediction'))
     
     
-    @st.cache(persist=True)
+    @st.cache_data(persist=True)
     def load_data():
         cancer = load_breast_cancer()
         df = pd.DataFrame(cancer.data,columns=cancer.feature_names)
@@ -38,7 +38,7 @@ def main():
             df[col] = labelencoder.fit_transform(df[col])
         return df
     
-    @st.cache(persist=True)
+    @st.cache_data(persist=True)
     def split(df):
         y = df['target']
         x = df.drop(columns=['target'])
